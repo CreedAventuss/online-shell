@@ -1,0 +1,128 @@
+/*INPUT*/
+@media only screen and (max-width: 99999999px) {
+    .sendreq {
+        display: grid;
+        background: #222831;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(16, 1fr);
+        height: 100vh;
+    }
+
+    .formbox {
+        display: flex;
+        background: #393E46;
+        grid-column-start: 4;
+        grid-column-end: 10;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        align-items: center;
+        border-radius: 6px;
+    }
+
+    .cmdbox {
+        height: 100%;
+        width: 16.6666666666%;
+        background: #FFD369;
+        border-radius: 6px;
+    }
+
+    .input {
+        height: 80%;
+        width: 78.34%;
+        font-size: 46px;
+        background: none;
+        border: none;
+        margin-left: 3%;
+        color: #EEEEEE;
+    }
+
+    ::placeholder {
+        color: #888888;
+    }
+
+    .input:focus {
+        outline: none;
+    }
+
+    .icon {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cmdico {
+        height: 112px;
+        width: 112px;
+    }
+}
+
+/*OUTPUT*/
+.megadad {
+    white-space: pre-wrap;
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 6;
+    grid-row-end: 16;
+    background: #EEEEEE;
+    border-radius: 10px 10px 6px 6px;
+    white-space: pre-line;
+    max-height: 610px;
+}
+
+.execpanel {
+    height: 10%;
+    width: 100%;
+    background: #393E46;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.exectext {
+    width: 6.5%;
+    background: transparent;
+    font-size: 42px;
+    color: #888888;
+    align-items: center;
+    margin-left: 1%;
+    float: left;
+}
+
+.execcmd {
+    margin-left: none;
+    background: transparent;
+    align-items: center;
+    font-size: 42px;
+    color: #EEEEEE;
+}
+
+.outputpanel {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    background: #FFD369;
+    align-items: center;
+}
+
+.outputtext {
+    width: 7.5%;
+    background: transparent;
+    font-size: 42px;
+    color: #888888;
+    margin-left: 1%;
+    float: left;
+    color: #393E46;
+
+}
+
+.output {
+    white-space: pre-line;
+    width: 100%;
+    overflow-y: auto;
+    font-size: 24px;    
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 30px;
+    height: 460px;
+}
